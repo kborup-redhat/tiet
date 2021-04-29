@@ -1,6 +1,5 @@
 - hosts: all
   tasks:
     - name: install package
-      command:
-        name: "echo some stuff"
+      command: "echo some stuff"
 
