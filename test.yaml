@@ -1,7 +1,6 @@
 - hosts: all
   tasks:
     - name: install package
-      yum:
-        name: "{{ package_name }}"
-        state: "{{ package_state }}"
+      command:
+        name: "echo some stuff"
 
